@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-sart;
+}
+.menu{
+    height:100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #ccc;
+}
+.menu li input{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#lineRuler{
+    opacity: 1;
+}
+.btn{
+    width: 140px;
+    height: 60px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
+
+}
+#canvas{
+    flex: 1;
+    width: 100vvw;
+}
+.color{
+    background-image: url(../img/color.png);
+    background-size: auto 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.clear{
+    background-image: url(../img/clear.png);
+    background-size: auto 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.restore{
+    background-image: url(../img/restore.png);
+    background-size: auto 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.eraser{
+    background-image: url(../img/eraser.png);
+    background-size: auto 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.preserve{ 
+background-image: url(../img/preserve.png);
+background-size: auto 80%;
+background-position: center;
+background-repeat: no-repeat;
+}
+.active{
+    box-shadow: 0 0 20px deepskyblue; 
+    border: 1px solid deepskyblue;
+}
